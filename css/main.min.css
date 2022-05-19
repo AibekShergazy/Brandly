@@ -267,6 +267,9 @@ body {
   top: 2751px;
   background-image: url(../images/Mask-Group.jpg);
   background-color: rgba(34, 37, 51, 0.4);
+  color: #fff;
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
 .footer .p {
@@ -281,5 +284,4 @@ body {
   font-size: 20px;
   line-height: 27px;
   text-transform: capitalize;
-  color: #fff;
 }
