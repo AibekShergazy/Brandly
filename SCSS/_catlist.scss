@@ -1,0 +1,35 @@
+@import "vars";
+
+.categories__list {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  text-align: center;
+
+  background-color: brown;
+  width: 1110px;
+  height: 679px;
+  left: 165px;
+  top: 795px;
+  list-style: none;
+
+  text-underline-position: none;
+  // background-color: red;
+
+  .categories__item {
+    position: relative;
+    background-image: url(../images/man2.jpg);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 419px;
+    left: 0px;
+    top: 105px;
+
+    // position: relative;
+    // background-image: url(../images/women.jpg);
+    // width: 350px;
+    // height: 419px;
+    // left: 545px;
+    // top: 854px;
+  }
+}
